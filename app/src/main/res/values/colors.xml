@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="arkaplan">#E65100</color>
+    <color name="buton">#FF6F00</color>
+    <color name="teal700">#FF018786</color>
+
+    <color name="home">#e0ffda</color>
+    <color name="bil">#dadeff</color>
+    <color name="pro">#FFf5e8</color>
+
+</resources>

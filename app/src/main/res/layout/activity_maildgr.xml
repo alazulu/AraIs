@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan"
+    tools:context=".maildgrActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/mail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <EditText
+        android:id="@+id/dgrmail"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/textarkaplan"
+        android:hint="@string/maildgr"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#78909C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/chksfr"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/textarkaplan"
+        android:hint="@string/sifre"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:padding="10dp"
+        android:textColorHint="#78909C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/dgrmail"
+        app:layout_constraintStart_toStartOf="@+id/dgrmail"
+        app:layout_constraintTop_toBottomOf="@+id/dgrmail" />
+
+    <Button
+        android:id="@+id/btnml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="@string/mldgr"
+        app:layout_constraintEnd_toEndOf="@+id/chksfr"
+        app:layout_constraintStart_toStartOf="@+id/chksfr"
+        app:layout_constraintTop_toBottomOf="@+id/chksfr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

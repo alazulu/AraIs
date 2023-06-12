@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68497615804",
+    "firebase_url": "https://araisdb-47b92-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "araisdb-47b92",
+    "storage_bucket": "araisdb-47b92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68497615804:android:10a7bda9f0619717af19b9",
+        "android_client_info": {
+          "package_name": "com.example.arais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68497615804-nrspphca261lcpni3jpropvr7vjnfg1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arais",
+            "certificate_hash": "d2613bc17945286e5743bf22621cf410d112e5f3"
+          }
+        },
+        {
+          "client_id": "68497615804-ll127q8jbq4ij4dqrjsepdt97kbsmjfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUo8AvmhQ4oaLKLDNrxr9LuILUiHQwxeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68497615804-ll127q8jbq4ij4dqrjsepdt97kbsmjfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

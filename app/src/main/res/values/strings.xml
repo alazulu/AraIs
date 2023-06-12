@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AraIs</string>
+    <string name="sifre">ŞİFRENİZİ GİRİNİZ</string>
+    <string name="resifre">ŞİFRENİZİ YENİDEN GİRİNİZ</string>
+    <string name="tel">5XX-XXX-XX-XX</string>
+    <string name="giris">GİRİŞ YAP</string>
+    <string name="kayit">KAYDOL</string>
+    <string name="kullanicisim">İSİM</string>
+    <string name="kullanicisoyisim">SOYİSİM</string>
+    <string name="email">E-MAİL</string>
+    <string name="btngeri">GERİ DÖN</string>
+    <string name="sifredgr">ŞİFRE </string>
+    <string name="maildgr">YENİ EMAİL GİRİNİZ</string>
+    <string name="teldgr">TELEFON </string>
+    <string name="cikisyap">ÇIKIŞ YAP</string>
+    <string name="tanim">AD SOYAD</string>
+    <string name="sfr">******</string>
+
+    <string-array name="stgender">
+        <item>Cinsiyetinizi Seçiniz</item>
+        <item>ERKEK</item>
+        <item>KADIN</item>
+    </string-array>
+
+    <string-array name="sttur">
+        <item>Katılım Türünüzü Seçiniz</item>
+        <item>İŞÇİ</item>
+        <item>İŞVEREN</item>
+        <item>SERVİS</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eskisfr">Eski Şifrenizi Giriniz</string>
+    <string name="sfdgr">ŞİFREYİ DEĞİŞTİR</string>
+    <string name="telgir">YENİ TELEFON NUMARANIZI GİRİNİZ</string>
+    <string name="telchg">TELEFON NUMARASI DEĞİŞTİR</string>
+    <string name="mldgr">MAİL DEĞİŞTİR</string>
+    <string name="plus">+</string>
+    <string name="tkvm">Takvim</string>
+
+
+</resources>

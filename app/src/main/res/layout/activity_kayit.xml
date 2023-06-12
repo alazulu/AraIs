@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan"
+    tools:context=".kayitActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivkayit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="64dp"
+                android:contentDescription="@android:string/httpErrorUnsupportedScheme"
+                app:srcCompat="@drawable/kayitlogo" />
+
+            <EditText
+                android:id="@+id/etisim"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:textAllCaps="true"
+                android:background="@drawable/textarkaplan"
+                android:hint="@string/kullanicisim"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etsoyisim"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:textAllCaps="true"
+                android:background="@drawable/textarkaplan"
+                android:maxLength="15"
+                android:hint="@string/kullanicisoyisim"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ettel"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/textarkaplan"
+                android:maxLength="10"
+                android:hint="@string/tel"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etmail"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/textarkaplan"
+                android:hint="@string/email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/kayitetsifre"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/textarkaplan"
+                android:maxLength="6"
+                android:hint="@string/sifre"
+                android:importantForAutofill="no"
+                android:inputType="numberPassword"
+                android:padding="10dp"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/resifre"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/textarkaplan"
+                android:maxLength="6"
+                android:hint="@string/resifre"
+                android:importantForAutofill="no"
+                android:inputType="numberPassword"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spincinsiyet"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/textarkaplan"
+                android:padding="10dp"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spintur"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:background="@drawable/textarkaplan" />
+
+
+            <Button
+                android:id="@+id/kayitbtnkayit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/butonarkaplan"
+                android:text="@string/kayit" />
+
+            <Button
+                android:id="@+id/kayitbtndon"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/btngeri"
+                android:background="@drawable/butonarkaplan"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

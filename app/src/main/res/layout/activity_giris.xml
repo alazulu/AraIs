@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaplan"
+    app:layout_constrainedWidth="false"
+    tools:context=".girisActivity">
+
+
+    <Button
+        android:id="@+id/btngiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="@string/giris"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/etgirissifre"
+        app:layout_constraintStart_toStartOf="@+id/etgirissifre"
+        app:layout_constraintTop_toBottomOf="@+id/etgirissifre" />
+
+    <Button
+        android:id="@+id/btnkayit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="@string/kayit"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btngiris"
+        app:layout_constraintStart_toStartOf="@+id/btngiris"
+        app:layout_constraintTop_toBottomOf="@+id/btngiris" />
+
+    <EditText
+        android:id="@+id/etgirissifre"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/textarkaplan"
+        android:drawableEnd="@drawable/passwordlogo"
+        android:hint="@string/sifre"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:padding="14dp"
+        android:textSize="20sp"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="@+id/etgirismail"
+        app:layout_constraintStart_toStartOf="@+id/etgirismail"
+        app:layout_constraintTop_toBottomOf="@+id/etgirismail"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/etgirismail"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/textarkaplan"
+        android:drawableEnd="@drawable/textlogo"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="20sp"
+        app:guidelineUseRtl="false"
+        app:layout_constraintEnd_toEndOf="@+id/ivgiris"
+        app:layout_constraintStart_toStartOf="@+id/ivgiris"
+        app:layout_constraintTop_toBottomOf="@+id/ivgiris" />
+
+    <ImageView
+        android:id="@+id/ivgiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@android:string/httpErrorUnsupportedScheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kullanicilogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
